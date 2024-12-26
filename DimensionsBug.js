@@ -1,0 +1,1 @@
+This error occurs when using the `Dimensions` API in React Native to get screen dimensions, but the dimensions are not available immediately.  This might happen if you try to access `Dimensions.get('window').width` or `Dimensions.get('screen').height` before the layout is completely determined.  It results in either `undefined` or `0` for width and height.
